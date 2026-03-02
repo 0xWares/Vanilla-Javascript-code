@@ -1,0 +1,17 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 100vw;
+    height:100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-item: center;
+}
+p.text{
+    display: inline-block;
+    color: gray;
+    font-weight: bold;
+    font-size: 200px;
+
+}

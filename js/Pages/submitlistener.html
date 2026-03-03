@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit listener...</title>
+    <link rel="stylesheet" href="./../CSS/submitlistener.css">
+</head>
+<body>
+    <div class="container">
+        <form id="submitForm" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" >
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" >
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" ></textarea>
+            
+            <button class="submitit" type="submit">Submit</button>
+        </form>
+
+        <div class="details">
+            <span>First name: </span>
+            <p class="fname"></p> 
+            <br>
+            <span>Email: </span>
+            <p class="email"></p>
+            <br>
+            <span>Message: </span>
+            <p class="msg"></p>
+
+
+        </div>
+
+    </div>
+
+    <script src="./../js/submitlistener.js"></script>
+</body>
+</html>

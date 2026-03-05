@@ -1,0 +1,36 @@
+/* body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+}
+p.txt{
+    margin: 0px;
+    padding: 0px;
+    font-size: 160px;
+    display: inline-block;
+    color: gray;
+
+} */
+
+
+.container1{
+    width: 400px;
+    height:200px;
+    background: black;
+}
+.container2{
+    width: 300px;
+    height: 150px;
+    background: red;
+
+}
+.container3{
+    width: 200px;
+    height: 100px;
+    background: yellow;
+}

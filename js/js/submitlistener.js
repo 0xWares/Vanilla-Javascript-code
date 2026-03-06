@@ -15,3 +15,6 @@ form.addEventListener("submit", function(event){
     msg.textContent = `${form[2].value}`;
     
 })
+
+
+const a = localStorage.setItem('names', JSON.stringify(['wares', 'niloy', 'badhon']))

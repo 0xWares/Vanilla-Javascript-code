@@ -1,0 +1,51 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+.container{
+    width: 70%;
+    height: auto;
+    padding: 20px;
+    background: black;
+    border-radius: 15px;
+    
+    margin: 100px auto;
+}
+.container h1{
+    /* display: block; */
+    text-align: center;
+    /* -top: 30px; */
+
+    color: white;
+    padding: 0px;
+
+    
+}
+.btnDiv{
+    width:80%;
+    margin: 30px auto;
+    
+    
+
+}
+.btns{
+
+    border: none;
+    background: gray;
+    color: white;
+    padding: 10px 20px;    
+    border-radius: 9px;
+}
+
+.check{
+    margin: 20px auto;
+    width:80%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+
+}
